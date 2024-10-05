@@ -1,0 +1,11 @@
+[project]
+name = "gradiio-cognito-bedrock"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "boto3>=1.35.34",
+    "gradio>=4.44.1",
+    "itsdangerous>=2.2.0",
+]
